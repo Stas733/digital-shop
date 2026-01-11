@@ -1,3 +1,9 @@
+
+HEADERS = {
+    "Authorization": f"OAuth {OAUTH_TOKEN}",
+    "Content-Type": "application/json",
+}
+
 import os
 import requests
 from datetime import datetime, timezone
